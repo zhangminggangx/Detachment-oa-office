@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.oa.personnel.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SerachDisServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.SerachDisServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetAllProServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.GetAllProServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SaveOrSubmitDispatchServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.SaveOrSubmitDispatchServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchStateDisServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.SearchStateDisServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewDisDetail</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.ViewDisDetail</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewDSHDisDetailServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.ViewDSHDisDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewMyDisServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.ViewMyDisServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UnApprovedDisServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.UnApprovedDisServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ApproveServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.ApproveServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SubmitDispatchServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.SubmitDispatchServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteDispatchServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.DeleteDispatchServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>GetModifyDispatchServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.GetModifyDispatchServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModifyDispatchServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.ModifyDispatchServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ApprovedDisServlet</servlet-name>
+		<servlet-class>com.oa.dispatch.servlet.ApprovedDisServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewEmployeeListServlet</servlet-name>
+		<servlet-class>com.oa.personnel.servlet.ViewEmployeeListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewEmployeeDetailServlet</servlet-name>
+		<servlet-class>com.oa.personnel.servlet.ViewEmployeeDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteEmployeeServlet</servlet-name>
+		<servlet-class>com.oa.personnel.servlet.DeleteEmployeeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddEmployeeServlet</servlet-name>
+		<servlet-class>com.oa.personnel.servlet.AddEmployeeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewMyMemoServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.ViewMyMemoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddMemoServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.AddMemoServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteMemoServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.DeleteMemoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModifyMemoServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.ModifyMemoServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.FileUploadServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddDocumentServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.AddDocumentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewMyDocServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.ViewMyDocServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteDocServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.DeleteDocServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>QueryDocServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.QueryDocServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewAppendixServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.ViewAppendixServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DownloadAppendixServlet</servlet-name>
+		<servlet-class>com.oa.documents.servlet.DownloadAppendixServlet</servlet-class>
+	</servlet>
+<servlet>
+    <servlet-name>DelReportServlet</servlet-name>
+    <servlet-class>com.oa.travel.servlet.DelReportServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>DelAppServlet</servlet-name>
+    <servlet-class>com.oa.travel.servlet.DelAppServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>TravelReportServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.TravelReportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetTravelAppNoServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.GetTravelAppNoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewTravelReportServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewTravelReportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TravelReportDetailServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.TravelReportDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateReportServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.UpdateReportServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>TravelAppServlet1</servlet-name>
+		<servlet-class>com.oa.travel.servlet.TravelAppServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewTravelAppServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewTravelAppServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TravelAppDetailedServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.TravelAppDetailedServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewUnApproveReportServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewUnApproveReportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewUnApproveReportDetailServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewUnApproveReportDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ApproveReportServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ApproveReportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewApprovedReportServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewApprovedReportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewApprovedReportDetailServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewApprovedReportDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateTravelAppServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.UpdateTravelAppServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddScheduleServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.AddScheduleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewScheduleServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.ViewScheduleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateScheduleServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.UpdateScheduleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddMessageServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.AddMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewShortMessageServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.ViewShortMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewReceivedMessageServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.ViewReceivedMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewsenddMessageServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.ViewsenddMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateShortMessageServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.UpdateShortMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FindUserEmailServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.FindUserEmailServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>TravelDispatch</servlet-name>
+		<servlet-class>com.oa.travel.servlet.TravelDispatch</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewApproveAppServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewApproveAppServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewUnApproveAppDetailServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewUnApproveAppDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewUnApproveAppServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewUnApproveAppServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewApprovedAppDetailServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ViewApprovedAppDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ApproveAppServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.ApproveAppServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetReportAppGoodsServlet</servlet-name>
+		<servlet-class>com.oa.travel.servlet.GetReportAppGoodsServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>SearchAllCommunicationServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.SearchAllCommunicationServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteCommunicationServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.DeleteCommunicationServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchCommunicationByServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.SearchCommunicationByServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddSinCommServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.AddSinCommServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RemoveSinComm</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.RemoveSinComm</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchSinCommByServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.SearchSinCommByServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchCommServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.SearchCommServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchSinCommServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.SearchSinCommServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteScheduleServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.DeleteScheduleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteMegServlet</servlet-name>
+		<servlet-class>com.oa.deskTop.servlet.DeleteMegServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewRolesServlet</servlet-name>
+		<servlet-class>com.oa.rightmanagement.servlet.ViewRolesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddRoleServlet</servlet-name>
+		<servlet-class>com.oa.rightmanagement.servlet.AddRoleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewUsersServlet</servlet-name>
+		<servlet-class>com.oa.rightmanagement.servlet.ViewUsersServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModifyUserRoleServlet</servlet-name>
+		<servlet-class>com.oa.rightmanagement.servlet.ModifyUserRoleServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UpdatePassWordSerlvet</servlet-name>
+		<servlet-class>com.oa.personnel.servlet.UpdatePassWordSerlvet</servlet-class>
+	</servlet>
+
+
+
+	<servlet>
+		<servlet-name>DeleteRoleServlet</servlet-name>
+		<servlet-class>com.oa.rightmanagement.servlet.DeleteRoleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewRoleDetailServlet</servlet-name>
+		<servlet-class>com.oa.rightmanagement.servlet.ViewRoleDetailServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>ModifyUserModServlet</servlet-name>
+    <servlet-class>com.oa.rightmanagement.servlet.ModifyUserModServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PhotoUploadServlet</servlet-name>
+    <servlet-class>com.oa.personnel.servlet.PhotoUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateSinCommServlet</servlet-name>
+    <servlet-class>com.oa.deskTop.servlet.UpdateSinCommServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCommServlet</servlet-name>
+    <servlet-class>com.oa.deskTop.servlet.UpdateCommServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SerachDisServlet</servlet-name>
+		<url-pattern>/SerachDisServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetAllProServlet</servlet-name>
+		<url-pattern>/GetAllProServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SaveOrSubmitDispatchServlet</servlet-name>
+		<url-pattern>/SaveOrSubmitDispatchServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchStateDisServlet</servlet-name>
+		<url-pattern>/SearchStateDisServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewDisDetail</servlet-name>
+		<url-pattern>/ViewDisDetail</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewDSHDisDetailServlet</servlet-name>
+		<url-pattern>/ViewDSHDisDetailServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeleteDispatchServlet</servlet-name>
+		<url-pattern>/DeleteDispatchServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ViewMyDisServlet</servlet-name>
+		<url-pattern>/ViewMyDisServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UnApprovedDisServlet</servlet-name>
+		<url-pattern>/UnApprovedDisServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ApproveServlet</servlet-name>
+		<url-pattern>/ApproveServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SubmitDispatchServlet</servlet-name>
+		<url-pattern>/SubmitDispatchServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetModifyDispatchServlet</servlet-name>
+		<url-pattern>/GetModifyDispatchServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyDispatchServlet</servlet-name>
+		<url-pattern>/ModifyDispatchServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ApprovedDisServlet</servlet-name>
+		<url-pattern>/ApprovedDisServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewEmployeeListServlet</servlet-name>
+		<url-pattern>/ViewEmployeeListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewEmployeeDetailServlet</servlet-name>
+		<url-pattern>/ViewEmployeeDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteEmployeeServlet</servlet-name>
+		<url-pattern>/DeleteEmployeeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddEmployeeServlet</servlet-name>
+		<url-pattern>/AddEmployeeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ViewMyMemoServlet</servlet-name>
+		<url-pattern>/ViewMyMemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddMemoServlet</servlet-name>
+		<url-pattern>/AddMemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteMemoServlet</servlet-name>
+		<url-pattern>/DeleteMemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyMemoServlet</servlet-name>
+		<url-pattern>/ModifyMemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<url-pattern>/FileUploadServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddDocumentServlet</servlet-name>
+		<url-pattern>/AddDocumentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewMyDocServlet</servlet-name>
+		<url-pattern>/ViewMyDocServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteDocServlet</servlet-name>
+		<url-pattern>/DeleteDocServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryDocServlet</servlet-name>
+		<url-pattern>/QueryDocServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewAppendixServlet</servlet-name>
+		<url-pattern>/ViewAppendixServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DownloadAppendixServlet</servlet-name>
+		<url-pattern>/DownloadAppendixServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SearchAllCommunicationServlet</servlet-name>
+		<url-pattern>/SearchAllCommunicationServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteCommunicationServlet</servlet-name>
+		<url-pattern>/DeleteCommunicationServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchCommunicationByServlet</servlet-name>
+		<url-pattern>/SearchCommunicationByServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddSinCommServlet</servlet-name>
+		<url-pattern>/AddSinCommServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RemoveSinComm</servlet-name>
+		<url-pattern>/RemoveSinComm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchSinCommByServlet</servlet-name>
+		<url-pattern>/SearchSinCommByServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchCommServlet</servlet-name>
+		<url-pattern>/SearchCommServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchSinCommServlet</servlet-name>
+		<url-pattern>/SearchSinCommServlet</url-pattern>
+	</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>DelAppServlet</servlet-name>
+    <url-pattern>/DelAppServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>TravelReportServlet</servlet-name>
+		<url-pattern>/TravelReportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetTravelAppNoServlet</servlet-name>
+		<url-pattern>/GetTravelAppNoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewTravelReportServlet</servlet-name>
+		<url-pattern>/ViewTravelReportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TravelReportDetailServlet</servlet-name>
+		<url-pattern>/TravelReportDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateReportServlet</servlet-name>
+		<url-pattern>/UpdateReportServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>TravelAppServlet1</servlet-name>
+		<url-pattern>/TravelAppServlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewTravelAppServlet</servlet-name>
+		<url-pattern>/ViewTravelAppServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TravelAppDetailedServlet</servlet-name>
+		<url-pattern>/TravelAppDetailedServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewUnApproveReportServlet</servlet-name>
+		<url-pattern>/ViewUnApproveReportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewUnApproveReportDetailServlet</servlet-name>
+		<url-pattern>/ViewUnApproveReportDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ApproveReportServlet</servlet-name>
+		<url-pattern>/ApproveReportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewApprovedReportServlet</servlet-name>
+		<url-pattern>/ViewApprovedReportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewApprovedReportDetailServlet</servlet-name>
+		<url-pattern>/ViewApprovedReportDetailServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UpdateTravelAppServlet</servlet-name>
+		<url-pattern>/UpdateTravelAppServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddScheduleServlet</servlet-name>
+		<url-pattern>/AddScheduleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewScheduleServlet</servlet-name>
+		<url-pattern>/ViewScheduleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateScheduleServlet</servlet-name>
+		<url-pattern>/UpdateScheduleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddMessageServlet</servlet-name>
+		<url-pattern>/AddMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewShortMessageServlet</servlet-name>
+		<url-pattern>/ViewShortMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewReceivedMessageServlet</servlet-name>
+		<url-pattern>/ViewReceivedMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewsenddMessageServlet</servlet-name>
+		<url-pattern>/ViewsenddMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateShortMessageServlet</servlet-name>
+		<url-pattern>/UpdateShortMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FindUserEmailServlet</servlet-name>
+		<url-pattern>/FindUserEmailServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>TravelDispatch</servlet-name>
+		<url-pattern>/TravelDispatch</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewApproveAppServlet</servlet-name>
+		<url-pattern>/ViewApproveAppServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewUnApproveAppDetailServlet</servlet-name>
+		<url-pattern>/ViewUnApproveAppDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewUnApproveAppServlet</servlet-name>
+		<url-pattern>/ViewUnApproveAppServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewApprovedAppDetailServlet</servlet-name>
+		<url-pattern>/ViewApprovedAppDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ApproveAppServlet</servlet-name>
+		<url-pattern>/ApproveAppServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetReportAppGoodsServlet</servlet-name>
+		<url-pattern>/GetReportAppGoodsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteScheduleServlet</servlet-name>
+		<url-pattern>/DeleteScheduleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteMegServlet</servlet-name>
+		<url-pattern>/DeleteMegServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewRolesServlet</servlet-name>
+		<url-pattern>/ViewRolesServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddRoleServlet</servlet-name>
+		<url-pattern>/AddRoleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewUsersServlet</servlet-name>
+		<url-pattern>/ViewUsersServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyUserRoleServlet</servlet-name>
+		<url-pattern>/ModifyUserRoleServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-mapping>
+		<servlet-name>UpdatePassWordSerlvet</servlet-name>
+		<url-pattern>/UpdatePassWordSerlvet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeleteRoleServlet</servlet-name>
+		<url-pattern>/DeleteRoleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewRoleDetailServlet</servlet-name>
+		<url-pattern>/ViewRoleDetailServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserModServlet</servlet-name>
+    <url-pattern>/ModifyUserModServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhotoUploadServlet</servlet-name>
+    <url-pattern>/PhotoUploadServlet</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>DelReportServlet</servlet-name>
+    <url-pattern>/DelReportServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSinCommServlet</servlet-name>
+    <url-pattern>/UpdateSinCommServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCommServlet</servlet-name>
+    <url-pattern>/UpdateCommServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>com.oa.filter.EncodingFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>com.oa.filter.LoginFilter</filter-class>
+	</filter>
+
+
+
+
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/html/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/index.jsp</url-pattern>
+	</filter-mapping>
+	
+
+
+
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

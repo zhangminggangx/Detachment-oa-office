@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="small/multibox.css" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="internet/style/multibox-ie6.css" type="text/css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="small/jquery.min.js"></script>
+</head>
+
+<body>
+
+<a href="include.html" rel="width:664,height:560" class="advanced" title="标题"><img alt="smalltravel" src="/oa/images/h2small.jpg"/></a>
+<a href="include2.html" rel="width:664,height:560" class="advanced" title="标题"><img alt="smalltravel" src="/oa/images/h1small.jpg"/></a>
+
+
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function() {
+	GnbHandler.init();
+	ssc.Keywords.init();
+});
+</script>
+<script type="text/javascript" src="small/gnb_new.js"></script>
+<script type="text/javascript" src="small/mootools-yui-compressed.js"></script>
+<script type="text/javascript" src="small/overlay.js"></script>
+<script type="text/javascript" src="small/multibox.js"></script>
+<script type="text/javascript">
+	window.addEvent('domready', function(){
+		var box = new multiBox('mb', {
+			overlay: new overlay()
+		});
+		var advanced = new multiBox('advanced', {
+			overlay: new overlay(),
+			descClassName: 'advancedDesc'
+		});
+	});
+</script>
+
+</body>
+</html>
